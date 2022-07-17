@@ -1,0 +1,87 @@
+.UserDivision{
+    height: fit-content;
+    width: 100vw;
+    padding-top: 13vh;
+    padding-bottom: 2vh;
+    background-color: #f3f5f7;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.UserListData {
+    height: fit-content;
+    width: 48% ; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.UserList {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    background-color: white;
+    padding-top: 0.70rem;
+    padding-bottom: 0.70rem;
+    padding-left: 0.80rem;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.UserList:hover{
+    background-color: rgb(248, 245, 245);
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.UserImageDiv {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #d1d1d1;
+}
+
+.UserImage {
+    height: 2.6rem;
+    width: 2.6rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+}
+
+.UserNameContact {
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    justify-content: left;
+}
+
+.UserName {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.UserContact {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+.SpinnerDiv {
+    height: 3.5rem;
+    padding-top: 0.90rem;
+
+}
+
+@media only screen and (max-width:500px){
+    .UserListData {
+        width: 88%;
+    }
+}
